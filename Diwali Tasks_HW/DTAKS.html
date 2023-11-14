@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELF TASK</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        img {
+            height: 100%;
+            width: 100vw;
+            margin-top: -20%;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin-left: 45%;
+        }
+        
+        nav {
+            height: 0px;
+        }
+        
+        li {
+            list-style: none;
+            z-index: 1;
+            color: white;
+            margin-left: 60px;
+        }
+        
+        a {
+            text-decoration: none;
+            list-style: none;
+            z-index: 1;
+        }
+        
+        .left {
+            position: relative;
+            z-index: 1;
+            left: 60px;
+            top: 30px;
+            font-size: 25px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        button {
+            border-radius: 50px;
+            padding: 6px 6px 5px;
+            margin-top: -30px;
+            border: none;
+            color: black;
+            background-color: white;
+            font-family: sans-serif;
+        }
+        
+        p {
+            height: 0px;
+            position: relative;
+            top: 110px;
+            left: 420px;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .vertical-line {
+            width: 2px;
+            height: 100px;
+            z-index: 1;
+            background-color: white;
+            margin: 0 auto;
+            position: relative;
+            top: 190px;
+            left: 2px;
+        }
+        
+        .down-arrow {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid white;
+            position: relative;
+            top: 180px;
+            left: 2px;
+            margin: 10px auto;
+        }
+        
+        .rightside img {
+            height: 500px;
+            width: 650px;
+            margin-left: 50%;
+            margin-top: -10.8%;
+        }
+        
+        .leftside {
+            position: relative;
+        }
+        
+        h2 {
+            top: 80px;
+            position: relative;
+            left: 50px;
+        }
+        
+        .leftside p {
+            position: relative;
+            color: black;
+            left: 0px;
+            font-size: 15px;
+            left: 50px;
+        }
+        
+        .leftside h5 {
+            position: relative;
+            top: 200px;
+            left: 50px;
+        }
+        
+        .leftside2 img {
+            height: 500px;
+            width: 610px;
+            margin-top: -5px;
+        }
+        
+        .rightside2 p {
+            position: relative;
+            color: black;
+            font-size: 15px;
+            left: 650px;
+            top: -400px;
+        }
+        
+        .rightside2 h2 {
+            left: 650px;
+            top: -400px;
+        }
+        
+        .rightside2 h5 {
+            left: 650px;
+            top: -340px;
+            position: relative;
+        }
+        
+        .rightside3 img {
+            height: 500px;
+            width: 610px;
+            position: relative;
+            top: -261px;
+            left: 50.1%;
+        }
+        
+        .leftside3 img {
+            height: 500px;
+            width: 610px;
+        }
+        
+        h3 {
+            color: rgb(158, 156, 156);
+            position: relative;
+            top: -180px;
+            left: 450px;
+            letter-spacing: 6px;
+        }
+        
+        .image1,
+        .image2,
+        .image3 {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        
+        .sec1 {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            gap: 150px;
+            top: -80px;
+            left: 50px;
+        }
+        
+        .ptag {
+            color: rgb(104, 103, 103);
+            font-size: 13px;
+            position: relative;
+            left: -20px;
+            top: -2px;
+        }
+        
+        h4 {
+            position: relative;
+            top: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .name1 {
+            position: relative;
+            left: -10px;
+        }
+        
+        .name2 {
+            position: relative;
+            left: 10px;
+        }
+        
+        .name3 {
+            position: relative;
+            left: 15px;
+        }
+        
+        h6 {
+            position: relative;
+            top: 60px;
+            color: rgb(174, 174, 174);
+        }
+        
+        .position1 {
+            position: relative;
+            left: 5px;
+        }
+        
+        .position3 {
+            position: relative;
+            left: 15px;
+        }
+        
+        .sec2 img {
+            height: 350px;
+            width: 310px;
+        }
+        
+        .sec2 {
+            display: flex;
+            margin-top: 100px;
+        }
+        
+        .sec3 {
+            background-color: rgb(10, 162, 157);
+            height: 350px;
+            position: relative;
+            top: -25px;
+        }
+        
+        .sec3 p {
+            color: rgb(43, 43, 43);
+            font-size: 15px;
+        }
+        
+        .tag1 {
+            display: flex;
+            gap: 50px;
+            margin-left: 80px;
+            margin-top: -20px;
+        }
+        
+        h1 {
+            position: relative;
+            top: 80px;
+            left: 570px;
+        }
+        
+        .tag2 {
+            display: flex;
+            gap: 20px;
+            margin-top: 25%;
+            margin-left: 45%;
+            z-index: 1;
+        }
+        
+        .tag2 img {
+            height: 25px;
+            width: 25px;
+            border-radius: 50px;
+        }
+        
+        @media only screen and (max-width: 756px) {
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+            img {
+                height: auto;
+                max-width: 100%;
+                position: relative;
+                top: -20px;
+            }
+            nav ul {
+                display: none;
+            }
+            ul li {
+                display: none;
+            }
+            button {
+                display: none;
+            }
+            p {
+                height: 0px;
+                position: relative;
+                top: 20px;
+                left: 150px;
+                font-size: 20px;
+                color: white;
+                z-index: 1;
+            }
+            .left {
+                top: 10px;
+                left: 10px;
+                position: relative;
+                font-size: 20px;
+            }
+            .vertical-line {
+                width: 2px;
+                height: 30px;
+                z-index: 1;
+                background-color: white;
+                margin: 0 auto;
+                position: relative;
+                top: 60px;
+                left: 4px;
+            }
+            .down-arrow {
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid white;
+                position: relative;
+                top: 50px;
+                left: 4px;
+                z-index: 1;
+                margin: 10px auto;
+            }
+            .rightside {
+                order: 2;
+                position: relative;
+                display: flex;
+                flex-direction: row-reverse;
+                top: -115px;
+                height: 250px;
+                max-width: 100%;
+            }
+            .leftside {
+                display: flex;
+                flex-direction: column-reverse;
+                position: relative;
+                z-index: 1;
+                top: 400px;
+            }
+            .leftside2 img {
+                top: 240px;
+                position: relative;
+            }
+            .leftside p {
+                left: 7px;
+                top: 70px;
+                font-size: 14px;
+                color: grey;
+                position: relative;
+            }
+            .leftside h2 {
+                position: relative;
+                top: -15px;
+                left: 7px;
+            }
+            .leftside h5 {
+                position: relative;
+                left: 7px;
+            }
+            .leftside2 img {
+                position: relative;
+                top: 280px;
+                height: 300px;
+                max-width: 100%;
+            }
+            .leftside3 img {
+                position: relative;
+                height: 350px;
+                max-width: 100%;
+                top: 200px;
+            }
+            .rightside2 p {
+                position: relative;
+                z-index: 1;
+                top: 600px;
+                left: 7px;
+                font-size: 14px;
+                color: grey;
+            }
+            .rightside2 h2 {
+                position: relative;
+                left: 7px;
+                top: 600px;
+                z-index: 1;
+            }
+            .rightside2 h5 {
+                position: relative;
+                top: 650px;
+                z-index: 1;
+                left: 7px;
+            }
+            .rightside3 img {
+                position: relative;
+                top: 480px;
+                left: 0px;
+                height: 350px;
+                max-width: 100%;
+            }
+            h3 {
+                position: relative;
+                z-index: 1;
+                top: 490px;
+                left: 39.5px;
+            }
+            .sec2 img {
+                position: relative;
+                top: 730px;
+                left: 0px;
+                height: 200px;
+                max-width: 100%;
+            }
+            .sec3 {
+                background-color: rgb(10, 162, 157);
+                height: 250px;
+                max-width: 100%;
+                position: relative;
+                top: 700px;
+            }
+            .tag2 {
+                position: relative;
+                top: 80px;
+                left: -45px;
+            }
+            .tag1 p {
+                position: relative;
+                left: 20px;
+                top: 50px;
+            }
+            .image1,
+            .image2,
+            .image3 {
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+            }
+            .sec1 {
+                display: block;
+                position: relative;
+                justify-content: center;
+                gap: 150px;
+                top: 560px;
+                left: 170px;
+            }
+            .image1 {
+                position: relative;
+                top: 5px;
+                left: -10px;
+            }
+            .image2 {
+                position: relative;
+                top: 100px;
+                left: -10px;
+            }
+            .image3 {
+                position: relative;
+                top: 190px;
+                left: -10px;
+            }
+            .sec1 p {
+                position: relative;
+                left: -40px;
+            }
+            .sec1 h4 {
+                position: relative;
+                top: 45px;
+                left: -20px;
+            }
+            .sec1 h6 {
+                position: relative;
+                top: 30px;
+                left: -20px;
+            }
+            .div1 p {
+                position: relative;
+                top: 90px;
+            }
+            .div1 h4 {
+                position: relative;
+                top: 140px;
+                left: -3px;
+            }
+            .div1 h6 {
+                position: relative;
+                top: 125px;
+                left: -30px;
+            }
+            .div2 p {
+                position: relative;
+                top: 180px;
+            }
+            .div2 h4 {
+                position: relative;
+                top: 230px;
+                left: 5px;
+            }
+            .div2 h6 {
+                position: relative;
+                top: 210px;
+                left: -5px;
+            }
+            .sec3 h1 {
+                left: 5px;
+                font-size: 15px;
+                top: 15px;
+                position: relative;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="left">Sunny side</div>
+            <div class="right">
+                <ul>
+                    <a href="#About">
+                        <li>About</li>
+                    </a>
+                    <a href="Services">
+                        <li>Services</li>
+                    </a>
+                    <a href="Projects">
+                        <li>Projects</li>
+                    </a>
+                    <li><button><b>CONTACT</b></button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <p><b>WE ARE CREATIVES</b></p>
+        <div class="vertical-line"></div>
+        <div class="down-arrow"></div>
+        <img src="images/desktop/image-header.jpg" alt="">
+    </div>
+    <main>
+        <section class="section1">
+            <div class="leftside">
+                <h2>Transform your brand</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Incidunt voluptatem quo, soluta beatae mollitia dolorem quidem dolores debitis vel! <br> Provident.</p>
+                <h5>LEARN MORE</h5>
+            </div>
+            <div class="rightside">
+                <img class="img1" src="images/desktop/image-photography.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <section class="section1">
+        <div class="leftside2">
+            <img class="img2" src="images/desktop/image-stand-out.jpg" alt="">
+        </div>
+        <div class="rightside2">
+            <h2>Transform your brand</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Incidunt voluptatem quo, soluta beatae mollitia dolorem quidem dolores debitis vel! <br> Provident.</p>
+            <h5>LEARN MORE</h5>
+
+        </div>
+    </section>
+    <section class="section1">
+        <div class="leftside3">
+            <img class="img3" src="images/desktop/image-gallery-cone.jpg" alt="">
+        </div>
+        <div class="rightside3">
+            <img class="img4" src="images/desktop/image-graphic-design.jpg" alt="">
+
+        </div>
+    </section>
+    <div>
+        <h3>CLIENTS TESTIMONIALS</h3>
+
+    </div>
+    <section class="sec1">
+
+
+        <div>
+            <img class="image1" src="images/IMG-20231018-WA0001.jpg" alt="">
+            <p class="ptag">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> Saepe quibusdam officiis <br>quos modi consequatur quam?</p>
+            <h4 class="name1">Dhruvi Mandaviya</h4>
+            <h6 class="position1">Marketing Director</h6>
+        </div>
+        <div class="div1">
+            <img class="image2" src="images/IMG_20230730_195342_659.jpg" alt="">
+            <p class="ptag">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Saepe quibusdam officiis <br>quos modi consequatur quam?</p>
+            <h4 class="name2">Prusti Doshi</h4>
+            <h6 class="position2">Chief Operating Officer</h6>
+        </div>
+        <div class="div2">
+            <img class="image3" src="images/Screenshot_20231112-161236_WhatsApp.jpg" alt="">
+            <p class="ptag">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Saepe quibusdam officiis <br>quos modi consequatur quam?</p>
+            <h4 class="name3">Het Darji</h4>
+            <h6 class="position3">Business Owner</h6>
+        </div>
+    </section>
+    <section class="sec2">
+        <div>
+            <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/desktop/image-gallery-cone.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/desktop/image-gallery-orange.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+        </div>
+    </section>
+    <section class="sec3">
+        <div>
+            <h1>sunny side</h1>
+        </div>
+        <div class="tag1">
+            <p>About</p>
+            <p>Services</p>
+            <p>Projects</p>
+
+        </div>
+        <div class="tag2">
+            <img src="images/desktop/download1.png" alt="">
+            <img src="images/desktop/download.png" alt="">
+            <img src="images/desktop/download (1).png" alt="">
+            <img src="images/desktop/iconmonstr-whatsapp-1.png" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
